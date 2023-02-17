@@ -19,7 +19,7 @@ public class VerifyOnlineShopingSiteForMobiles {
 		 //driver.manage().window().maximize();
 		 driver.get("https://www.flipkart.com/");
 		 
-		 
+		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
 		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
 		 
 		OnlineShopingSiteForMobiles onlineShopingSiteForMobiles  = new OnlineShopingSiteForMobiles(driver);
