@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser001" value="Chrome"/>
+    <classes>
+      <class name="TestNgTest.SerachProduct">
+        <methods>
+          <include name="URL"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="Seeproduct"/>
+          <include name="launchBrowser"/>
+          <include name="Obj"/>
+        </methods>
+      </class> <!-- TestNgTest.SerachProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser001" value="Firefox"/>
+    <classes>
+      <class name="TestNgTest.SerachProduct">
+        <methods>
+          <include name="URL"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="Seeproduct"/>
+          <include name="launchBrowser"/>
+          <include name="Obj"/>
+        </methods>
+      </class> <!-- TestNgTest.SerachProduct -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser001" value="Edge"/>
+    <classes>
+      <class name="TestNgTest.SerachProduct">
+        <methods>
+          <include name="URL"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="Seeproduct"/>
+          <include name="launchBrowser"/>
+          <include name="Obj"/>
+        </methods>
+      </class> <!-- TestNgTest.SerachProduct -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
