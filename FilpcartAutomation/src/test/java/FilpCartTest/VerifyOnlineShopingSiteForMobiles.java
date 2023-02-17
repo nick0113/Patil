@@ -25,6 +25,13 @@ public class VerifyOnlineShopingSiteForMobiles {
 		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
 		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
 		 
+
+		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
+		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
+		 
+		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
+		 // Step2 : Enter the Mobile Number OR Email-Id and enter OPT
+		
 		OnlineShopingSiteForMobiles onlineShopingSiteForMobiles  = new OnlineShopingSiteForMobiles(driver);
 	
 		/*onlineShopingSiteForMobiles.clickOnLoging();
